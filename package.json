@@ -1,0 +1,26 @@
+{
+  "name": "sst-api-interface-contract",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
+    "aws-cdk-lib": "2.84.0",
+    "constructs": "10.1.156",
+    "esbuild": "^0.18.11",
+    "prettier": "^3.0.0",
+    "sst": "2.21.7",
+    "typescript": "^5.1.6"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

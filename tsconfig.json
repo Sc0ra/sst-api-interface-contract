@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "exclude": ["packages"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "paths": {
+      "@sst-api-interface-contract/functions/*": ["./packages/functions/src/*"],
+      "@sst-api-interface-contract/interfaces/*": [
+        "./packages/interfaces/src/*"
+      ]
+    }
+  }
+}

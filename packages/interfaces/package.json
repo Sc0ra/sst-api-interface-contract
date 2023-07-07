@@ -1,0 +1,18 @@
+{
+  "name": "@sst-api-interface-contract/interfaces",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "vitest": "^0.32.2",
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.3.2",
+    "sst": "2.21.7"
+  }
+}

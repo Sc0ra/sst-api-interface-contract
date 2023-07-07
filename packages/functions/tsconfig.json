@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@sst-api-interface-contract/core/*": ["../core/src/*"],
+      "@sst-api-interface-contract/interfaces/*": ["../interfaces/src/*"]
+    }
+  }
+}
